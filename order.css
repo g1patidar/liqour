@@ -1,0 +1,90 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    margin: 0px;
+    background-color: rgb(246, 244, 244);
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+
+.navul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.start{ 
+    margin-left: 50px;
+}
+.cen{
+    height: 25px ;
+    width:100px;
+    padding: 5px 20px 5px 20px;
+    font-size: 35px;
+    margin-top: 8px;
+}
+.cen div a{
+    color: black;
+}
+.last {
+    height: 25px;
+    width: 170px;
+    padding: 5px 10px 5px 10px;
+    font-size: 38px;
+    opacity: 0.5;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+.last div a{
+    color: black;
+}
+
+
+.mainpagefordetails{
+    
+}
+.gridfirst{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 700px 400px;
+}
+.detailsimg{
+    height: 400px;
+    width: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: sticky;
+    top: 90px;
+}
+.detailstext p, ul{
+    font-size: 18px;
+}
+
+
+/* ###########footer################# */
+.last2 {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.325);
+    padding: 35px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+}
+
+.fti {
+    margin-left: 580px;
+}
+
+.fti a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}

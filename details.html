@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Order</title>
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <ul class="navul">
+            <li class="start"> <img src="./logo.png" width="60px" alt=""></li>
+            <li class="cen">
+                <div>
+                    <a style="text-decoration: none;" href="#">
+                        <div class="searchbutton">Checkout</div>
+                    </a>
+                </div>
+            </li>
+            <li class="last">
+                <div>
+                    <a style="text-decoration: none;" href="#">
+                        <i class="fa fa-lock "></i>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- ########  -->
+    <div>
+        <div class="p2age">
+            <div class="del">
+                <div class="first">
+                    <div style="font-size: 20px ; font-weight: 600;">1.Delivery Address</div>
+                    <div class="text1" style="font-size: 16px;">jeevan patidar <br>
+                        A 2/6 Lig Rishi Nagar <br>
+                        Ujjain <br>
+                        UJJAIN, MADHYA PRADESH 456010 <br>
+                        <a href="#">Add delivery instructions</a>
+                    </div>
+                    <div class="text1"><a style="text-decoration: none;" href="#">Change</a></div>
+                </div>
+                <div class="second">
+
+                    <div class="payment">
+                        <div style="font-size: 20px; font-weight: 600; color: brown;">2.Select a payment method
+                        </div>
+                        <div class="text1" style="margin-left: 420px;">close X</div>
+                    </div>
+                    <form class="form1" action="">
+                        <div class="box1">
+                            <div class="balance">Your available balance</div>
+                            <div class="entercode">
+                                <i class="fa fa-plus" style="color:rgba(0, 0, 0, 0.124); margin-top: 5px;"></i>
+                                <div class="applycode"><input type="text" placeholder="Enter code"></div>
+                                <a href="#" style="text-decoration: none; color: black;">
+                                    <div class="applybutton">Apply</div>
+                                </a>
+                            </div>
+                            <div class="anotherpaymentmethod">
+                                Another Payment Method
+                            </div>
+                            <div class="typeofmethod">
+                                <label style="font-size: 18px; font-weight: 600;" for=""><input type="radio"> Credit or
+                                    debit card</label>
+                                <div>
+                                    <i style="font-size: 22px;" class="fa fa-cc-visa"></i>
+                                    <i style="font-size: 22px;" class="fa fa-cc-mastercard"></i>
+                                </div>
+                                <div class="netbanking">
+                                    <label style="font-size: 18px; font-weight: 600;" for=""><input type="radio" name="pay">
+                                        Netbanking</label>
+                                </div>
+                                <div class="otherupi">
+                                    <label style="font-size: 18px; font-weight: 600;" for=""><input type="radio" name="pay"> Other
+                                        UPI Apps</label>
+                                </div>
+                                <div class="emi">
+                                    <label style="font-size: 18px; font-weight: 600;" for=""><input type="radio" name="pay">
+                                        EMI</label>
+                                </div>
+                                <div class="cash">
+                                    <label style="font-size: 18px; font-weight: 600;" for=""><input type="radio" name="pay"> Cash
+                                        on Delivery/Pay on Delivery</label>
+                                    <div>Cash, UPI and Cards accepted. <a href="#">Know more.</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usethispaymentmethod">
+                            <div id="buttonpayment"><a href="#" class="usebutton">use this payment method</a></div>
+                        </div>
+                    </form>
+                    <div class="offer">
+                        <div style="font-size: 20px; font-weight: 600; margin-top: 20px;">3.Offer
+                        </div>
+                        <a href="#">
+                            <div class="text1" style="margin-left: 720px; margin-top: 20px;">change</div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div style="font-size: 20px; font-weight: 600; margin-top: 20px;">4.Item and delivery
+                        </div>
+                    </div>
+                    <div class="para1">
+                        <p>
+                            Need help? Check our <a href="#">help pages</a> or <a href="#">contact us</a> <br><br>
+                            When your order is placed, we'll send you an e-mail message acknowledging receipt of your
+                            order. If you choose to pay using an electronic payment method (credit card, debit card or
+                            net banking), you will be directed to your bank's website to complete your payment. Your
+                            contract to purchase an item will not be complete until we receive your electronic payment
+                            and dispatch your item. If you choose to pay using Pay on Delivery (POD), you can pay using
+                            cash/card/net banking when you receive your item.
+                            See liqour.in's <a href="#">Return Policy</a>. <br><br>
+
+                            Need to add more items to your order? Continue shopping on the <a href="#">Liqour.in
+                                homepage</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="orderdetail">
+                <div class="underorder">
+                    <div class="usethispaymentmethod1">
+                        use this payment method
+                    </div>
+                    <p class="paraunderorder">Choose a payment method to continue checking out. You will still have a
+                        chance to review and edit
+                        your order before it is final.</p>
+                    <h3>Order Summary</h3>
+                    <div class="fourline">Items: <span style="float: right; font-size: 12px;"><i class="fa fa-rupee"></i> 999.00</span></div>
+                    <div class="fourline">Delivery:<span style="float: right; font-size: 12px;">--</span> </div>
+                    <div class="fourline">Total:<span style="float: right; font-size: 12px;">--</span></div>
+                    <div class="fourline">Promotion Applied:<span style="float: right; font-size: 12px;">--</span></div>
+
+                    <div class="totalorder">
+                        Order Total:<span style="float: right; font-size: 12px;">--</span>
+                    </div>
+                </div>
+                <div class="costs">
+                    <a style="text-align: center;" href="#">How are delivery costs calculated?</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

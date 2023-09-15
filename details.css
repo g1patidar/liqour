@@ -1,0 +1,216 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    margin: 0px;
+    background-color: rgb(246, 244, 244);
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+
+.navul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.start{ 
+    margin-left: 50px;
+}
+.cen{
+    height: 25px ;
+    width:100px;
+    padding: 5px 20px 5px 20px;
+    font-size: 35px;
+    margin-top: 8px;
+}
+.cen div a{
+    color: black;
+}
+.last {
+    height: 25px;
+    width: 170px;
+    padding: 5px 10px 5px 10px;
+    font-size: 38px;
+    opacity: 0.5;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+.last div a{
+    color: black;
+}
+
+/* ############### */
+.del{
+    margin-top: 30px;
+}
+.p2age{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.first{
+    display: flex;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.248);
+    
+}
+.first div{
+    
+}
+.text1{
+    margin-left: 120px;
+}
+.second{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.payment{
+    display: flex;
+}
+
+/* ############## */
+.form1{
+    height: 455px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    box-shadow: 1px 1px 5px black;
+}
+.box1{
+    margin: 20px;
+}
+.balance{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+}
+.entercode{
+    display: flex;
+    margin:10px 0px 0px 0px
+}
+.applycode{
+    margin-left: 15px;
+   
+}
+.applycode input{
+    padding: 5px;
+}
+.applybutton{
+    border: 1px solid rgba(0, 0, 0, 0.376);
+    padding: 3px 8px 3px 8px ;
+    margin-left: 10px;
+}
+.applybutton:hover{
+    background-color: black;
+    color: white;
+}
+.anotherpaymentmethod{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+}
+.typeofmethod{
+    margin-top: 10px;
+}
+.netbanking{
+    margin-top: 22px;
+}
+.otherupi{
+    margin-top: 22px;
+}
+.emi{
+    margin-top: 22px;
+}
+.cash{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.usethispaymentmethod{
+    height: 52px;
+    border-top: 1px solid rgba(0, 0, 0, 0.318);
+    background-color: rgba(213, 211, 211, 0.294);
+}
+#buttonpayment{
+    margin-top: 14px;
+}
+.usebutton{
+    background-color: rgb(253, 223, 72);
+    color: black;
+    padding: 7px 15px 7px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+.offer{
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.318);
+    padding-bottom: 20px;
+}
+.item{
+    border-top: 1px solid rgba(0, 0, 0, 0.318);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+    padding-bottom: 20px;
+}
+.para1 p{
+    color: rgba(0, 0, 0, 0.563);
+}
+
+
+.orderdetail{
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    position: sticky;
+    top: 100px;
+    border: 1px solid black;
+}
+.underorder{
+    margin: 20px;
+}
+.usethispaymentmethod1{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.594);
+    border: 1px solid rgb(142, 116, 11, 0.305);
+    background-color: rgba(251, 222, 108, 0.305);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.paraunderorder{
+    font-size: 14px ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+    padding-bottom: 15px;
+}
+.fourline{
+    font-size: 12px;
+    padding: 2px;
+}
+.totalorder{
+    margin-top: 10px;
+    color: orangered;
+    border-top: 1px solid rgba(0, 0, 0, 0.318);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+.costs{
+    border-top: 1px solid rgba(213, 211, 211, 0.594);
+    background-color: rgba(213, 211, 211, 0.294);
+    padding: 19px;
+}
