@@ -44,6 +44,24 @@ body {
 .last div a{
     color: black;
 }
+@media (max-width:393px){
+    .navul{
+        justify-content: flex-start;
+    }
+    .start{
+        margin-left: -10px;
+    }
+    .cen{
+        margin-left: 30px;
+    }
+    .last{
+        margin-left: 60px;
+    }
+}
+
+
+
+
 
 
 .mainpagefordetails{
@@ -65,7 +83,18 @@ body {
 .detailstext p, ul{
     font-size: 18px;
 }
-
+@media(max-width:393px){
+    .detailsimg{
+        height: 300px;
+        position: none;
+        width: 340px;
+    }
+    .gridfirst{
+        margin: 30px;
+        
+    grid-template-columns: 350px;
+    }
+}
 
 /* ###########footer################# */
 .last2 {
@@ -87,4 +116,9 @@ body {
     text-decoration: none;
     color: black;
     margin-left: 5px;
+}
+@media(max-width:393px){
+    .fti{
+        margin-left: 20px;
+    }
 }

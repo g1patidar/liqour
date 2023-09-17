@@ -4,6 +4,7 @@ body {
 }
 
 .navbar {
+    overflow-x: hidden;
     margin: 0px;
     background-color: rgb(246, 244, 244);
     z-index: 100;
@@ -44,12 +45,27 @@ body {
 .last div a{
     color: black;
 }
+@media (max-width:393px){
+    .navul{
+        justify-content: flex-start;
+    }
+    .start{
+        margin-left: -10px;
+    }
+    .cen{
+        margin-left: 30px;
+    }
+    .last{
+        margin-left: 60px;
+    }
+}
 
 /* ############### */
 .del{
     margin-top: 30px;
 }
 .p2age{
+    overflow-x: hidden;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -202,7 +218,7 @@ body {
 }
 .totalorder{
     margin-top: 10px;
-    color: orangered;
+    color: brown;;
     border-top: 1px solid rgba(0, 0, 0, 0.318);
     border-bottom: 1px solid rgba(0, 0, 0, 0.318);
     padding-top: 10px;
@@ -213,4 +229,21 @@ body {
     border-top: 1px solid rgba(213, 211, 211, 0.594);
     background-color: rgba(213, 211, 211, 0.294);
     padding: 19px;
+}
+@media(max-width:393px){
+    .p2age{
+        grid-template-columns: 370px;
+    }
+    .first{
+        margin-left: 20px;
+    }
+    .second{
+        margin-left: 20px;
+    }
+    .form1{
+        margin-left: 0px;
+    }
+    .text1{
+        margin-left: 30px;
+    }
 }
