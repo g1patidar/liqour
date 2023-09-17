@@ -53,10 +53,10 @@ body {
         margin-left: -10px;
     }
     .cen{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .last{
-        margin-left: 60px;
+        margin-left: 30px;
     }
 }
 
@@ -76,9 +76,7 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.248);
     
 }
-.first div{
-    
-}
+
 .text1{
     margin-left: 120px;
 }
@@ -232,7 +230,7 @@ body {
 }
 @media(max-width:393px){
     .p2age{
-        grid-template-columns: 370px;
+        grid-template-columns: 330px;
     }
     .first{
         margin-left: 20px;
@@ -241,9 +239,10 @@ body {
         margin-left: 20px;
     }
     .form1{
+        height: 490px;
         margin-left: 0px;
     }
     .text1{
-        margin-left: 30px;
+        margin-left:20px
     }
 }

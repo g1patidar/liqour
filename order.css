@@ -55,7 +55,7 @@ body {
         margin-left: 30px;
     }
     .last{
-        margin-left: 60px;
+        margin-left: 30px;
     }
 }
 
@@ -87,12 +87,12 @@ body {
     .detailsimg{
         height: 300px;
         position: none;
-        width: 340px;
+        width: 300px;
     }
     .gridfirst{
         margin: 30px;
         
-    grid-template-columns: 350px;
+    grid-template-columns: 300px;
     }
 }
 

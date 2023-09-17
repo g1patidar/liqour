@@ -129,10 +129,13 @@ body {
     margin-right: 50px;
     margin-top: 8px;
 }
+.last111{
+    display: none;
+}
 .last div a{
     color: black;
 }
-@media (max-width:393px){
+@media (max-width:360px){
     .navul {
         justify-content: flex-start;
         
@@ -145,7 +148,7 @@ body {
         width:90px;
         padding: 5px 10px 10px 10px;
         font-size: 20px;
-        margin-left: 190px;
+        margin-left: 20px;
         
     }
     
@@ -155,12 +158,25 @@ body {
     .last11 {
         display: none;
     }
+    .last111{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(246, 231, 24, 0.587);
+    margin-left: 35px;
+    margin-inline-end: 30px;
+    margin-top: 8px;
+    }
     #dil{
         position: relative;
         margin: 0px ;
         padding: 0px;
         bottom:285px;
-        left:310px;
+        left:280px;
         color: red;
         font-size: 20px;
     }
@@ -248,7 +264,7 @@ body {
         margin-top: 20px;
     }
     .brandsimg{
-        grid-template-columns: 350px;
+        grid-template-columns: 320px;
     }
     .firstimg{
         height: 317px;
